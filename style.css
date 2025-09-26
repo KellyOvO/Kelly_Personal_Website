@@ -1,0 +1,9 @@
+*{
+    color:black;/*a comment */
+    margin:20px;
+    font:30px Tahoma;
+    text-shadow: 2px 2px green;
+    text-align: center;
+    background-color:darkred;
+}
+
