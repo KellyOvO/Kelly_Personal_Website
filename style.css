@@ -35,7 +35,7 @@ button.subpage{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 4;
 }
 .grid-item2 {
     background: lightgray;
@@ -43,7 +43,7 @@ button.subpage{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 3
+    grid-row-end: 3;
 }
 
 .grid-item3  {
@@ -51,11 +51,11 @@ button.subpage{
     border: solid 1px black;
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 
-h1 {color:#333;}
+h1 {color:black;}
 button{
     border:2px solid#AAA;
     background-color: #555;
