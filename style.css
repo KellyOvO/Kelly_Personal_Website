@@ -55,3 +55,9 @@ button.subpage{
     grid-row-end: 3
 }
 
+h1 {color:#333;}
+button{
+    border:2px solid#AAA;
+    background-color: #555;
+}
+
