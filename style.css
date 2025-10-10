@@ -1,17 +1,13 @@
 *{
     color:black;/*a comment */
     margin:10px;
-    font:30px Papyrus;
+    font:20px Papyrus;
     text-shadow: 2px 2px green;
-    text-align: center;
+    //text-align: center;
     background-color:darkred;
 }
 
 p {
-    color:black;
-}
-
-button.subpage{
     color:black;
 }
 
@@ -55,9 +51,70 @@ button.subpage{
     grid-row-end: 5;
 }
 
-h1 {color:black;}
-button{
-    border:2px solid#AAA;
-    background-color: #555;
+header, section{
+    margin: 2em auto;
+    width:min(75em,100%);
+    background-color:brown;
+    padding: min(2em, 15%);
+    border-radius: 1em;
+}
+
+nav {
+    margin: 1em auto 1em auto;
+    width: min(1000px,100%);
+    font-size: 1.5em;
+}
+
+nav u1{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap:2em;
+}
+
+nav p:first-cild{
+    margin-right: auto;
+}
+
+button.subpage{
+    border-radius: .3em;
+    font-size: 1.2em;
+    color: black;
+    //background-color:gold;
+}
+
+.intro_button {
+    display: inline-block;
+    text-decoration: none;
+    color:blueviolet;
+    background-color: rgb(95, 9, 9);
+    padding: .75em 1em;
+    margin-top: 0em;
+    border-radius: .5em;
+    font-weight:600;
+    text-shadow: 2px 2px gold;
+    
+}
+
+.flex-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+header img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.text-container{
+    flex: 0 1 40em;
+}
+
+h1{
+    font-size: 2em;
 }
 
