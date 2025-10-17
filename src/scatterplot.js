@@ -1,5 +1,6 @@
 
         // Sample data (replace with your actual data)
+        (function(){
         const data = [
             { year: 2018, type: "Writing", count: 5 },
             { year: 2018, type: "Painting", count: 2 },
@@ -109,3 +110,4 @@
             .attr("y", -margin.left + 20)
             .attr("x", -height / 2)
             .text("Type of Work");
+})();

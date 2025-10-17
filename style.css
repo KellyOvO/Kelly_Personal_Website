@@ -1,3 +1,6 @@
+html{
+    scroll-behavior:smooth;
+}
 *{
     color:black;/*a comment */
     margin:10px;
@@ -86,14 +89,18 @@ button.subpage{
 .intro_button {
     display: inline-block;
     text-decoration: none;
-    color:blueviolet;
+    color:gold;
     background-color: rgb(95, 9, 9);
     padding: .75em 1em;
     margin-top: 0em;
     border-radius: .5em;
     font-weight:600;
-    text-shadow: 2px 2px gold;
+    text-shadow: 2px 2px blueviolet;
     
+}
+
+.Button_click{
+    text-align: center;
 }
 
 .flex-container{
@@ -116,5 +123,51 @@ header img {
 
 h1{
     font-size: 2em;
+    text-align: center;
 }
 
+h2{
+    font-size: 1.3em;
+}
+
+
+        .axis {
+            stroke: #ccc;
+            stroke-width: 1px;
+        }
+
+        .gridCircle {
+            fill: none;
+            stroke: #ccc;
+            stroke-width: 0.5px;
+        }
+
+        .radarStroke {
+            fill: rgba(107, 76, 154, 0.2); /* Semi-transparent fill */
+            stroke: #6b4c9a;
+            stroke-width: 2px;
+        }
+
+        .radarDot {
+            fill: #6b4c9a;
+        }
+
+        .axisLabel {
+            font-size: 18px;
+        }
+
+      .node circle {
+            fill: #fff;
+            stroke: steelblue;
+            stroke-width: 1.5px;
+        }
+
+        .node text {
+            font: 18px;
+        }
+
+        .link {
+            fill: none;
+            stroke: white; /* Set the line color to purple */
+            stroke-width: 0.5px;
+        }

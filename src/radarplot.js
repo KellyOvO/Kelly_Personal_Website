@@ -1,10 +1,11 @@
+(function(){
        const data1 = [
-            { axis: "Honesty", value: 1.1 },
-            { axis: "Executive Force", value: 0.9 },
-            { axis: "Creativity", value: 0.7 },
-            { axis: "Communication", value: 0.85 },
+            { axis: "Honesty", value: 1 },
+            { axis: "Executive Force", value: 1 },
+            { axis: "Creativity", value: 0.9 },
+            { axis: "Communication", value: 1 },
             { axis: "Problem Solving", value: 0.95 },
-            { axis: "Teamwork", value: 0.5 }
+            { axis: "Teamwork", value: 0.7 }
         ];
 
         console.log("Data:", data1); // ADDED: Check the data
@@ -91,4 +92,4 @@
             .attr("cy", (d, i) => rScale(d.value) * Math.sin(i * angleSlice - Math.PI / 2))
             .attr("r", 5)
             .style("fill", "#6b4c9a");
-
+})();
