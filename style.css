@@ -6,7 +6,6 @@ html{
     margin:10px;
     font:20px Papyrus;
     text-shadow: 2px 2px green;
-    //text-align: center;
     background-color:darkred;
 }
 
@@ -83,7 +82,7 @@ button.subpage{
     border-radius: .3em;
     font-size: 1.2em;
     color: black;
-    //background-color:gold;
+    
 }
 
 .intro_button {
@@ -171,3 +170,32 @@ h2{
             stroke: white; /* Set the line color to purple */
             stroke-width: 0.5px;
         }
+
+ .adjacency-matrix .cell {
+ stroke: #ccc;
+ stroke-width: 0.5px;
+ }
+ 
+
+ .adjacency-matrix .row-label,
+ .adjacency-matrix .col-label {
+ font-size: 10px;
+ }
+
+
+ .link {
+ stroke: #999;
+ stroke-opacity: 0.6;
+  /* stroke-width: 5; */
+ }
+
+
+
+   .matrix-label {
+  font-size: 10px;
+  }
+ 
+
+  .axis-label {
+  font-size: 12px;
+  }

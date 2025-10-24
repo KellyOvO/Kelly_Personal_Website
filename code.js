@@ -20,3 +20,5 @@ document.querySelector("#my_work1").appendChild(mynode);
 function welcomeToWork1() {
     mynode.innerHTML = "Welcome to my first work!";
 }
+
+
