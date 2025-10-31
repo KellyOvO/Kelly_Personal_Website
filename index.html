@@ -2,6 +2,9 @@
     <head>
         <link href="style.css" rel="stylesheet" />   
         <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
+        <script src="https://unpkg.com/topojson-client@3"></script>
+        <script src="src/dotdensity.js"></script>
         <title>HeManChing</title>  
     </head>
     <body>
@@ -64,11 +67,23 @@
         
          </section>
 
-        <script src="code.js"></script>
+         <section id="vis-dot-dansity">
+            <h2>The place that I have visited:</h2>
+            <div class="map-container"></div>
+         </section>
+
+         <section id="vis-symbol-map">
+            <h2>The location of the visitor:</h2>
+                <div id="visitor-count">Visitors: 0</div>
+         </section>
+
+        <!-- <script src="code.js"></script> -->
         <script src="src/radarplot.js"></script>
         <script src="src/tree.js"></script>
         <script src="src/node-link.js"></script>
         <script src="src/adjacency_matrix.js"></script>
+        <script src="src/dot-density.js"></script>
+        <script src="src/symbol-map.js"></script>
     </body>
     
 </html>
