@@ -257,3 +257,6 @@ h2{
             font-size: 14px;
             z-index: 10; /* Ensure the count is above the dots */
         }
+        .country.selected {
+            fill: orange; /* Highlight color for selected country */
+        }
