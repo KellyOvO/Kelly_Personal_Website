@@ -27,7 +27,27 @@ p {
     grid-gap: 1px
 }
 
-.grid-item1 {
+.Button_click button {
+  background-color: #cb2323; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  /* transition-duration: 0.4s; */
+}
+
+.Button_click button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #cb2323;
+}
+
+/* .grid-item1 {
     background: lightgray;
     border: solid 1px black;
     grid-column-start: 1;
@@ -51,7 +71,7 @@ p {
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
-}
+} */
 
 header, section{
     margin: 2em auto;
@@ -84,7 +104,13 @@ button.subpage{
     color: black;
     
 }
+#cv.subpage {
+    background-color:gray;
+}
 
+#cv.subpage:hover{
+background-color:white;
+}
 .intro_button {
     display: inline-block;
     text-decoration: none;
@@ -125,6 +151,10 @@ h1{
     text-align: center;
 }
 
+h3{
+    font-size: 3em;
+    text-align: center;
+}
 h2{
     font-size: 1.3em;
 }
@@ -249,10 +279,10 @@ h2{
 
         #visitor-count {
             position: absolute;
-            top: 10px;
-            left: 10px;
+            top: 30px;
+            left: 30px;
             background-color: rgba(255, 255, 255, 0.8);
-            padding: 5px;
+            padding: 10px;
             border-radius: 5px;
             font-size: 14px;
             z-index: 10; /* Ensure the count is above the dots */
